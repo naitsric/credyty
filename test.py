@@ -4,7 +4,7 @@ import re
 class FromRandomCharactersGetPassword:
     def __init__(self, path):
         """
-        from a file this class discover a possible baking password.
+        from a file this class discover a possible banking password.
         :param path: path file
         """
         data = [line.rstrip('\n') for line in open(path, 'r')]
